@@ -41,6 +41,8 @@ Neste modelo temos as camadas cliente e servidor, sendo função da primeira tra
 <strong>Exemplo:</strong>
 </br>
 <p><img alt="Modelo de tres camadas" src="modelo_tres_camadas.png" /></p>
+</br>
+
 
 
 
