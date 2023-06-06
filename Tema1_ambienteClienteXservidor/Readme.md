@@ -43,7 +43,31 @@ Neste modelo temos as camadas cliente e servidor, sendo função da primeira tra
 <p><img alt="Modelo de tres camadas" src="/midia/modelo_tres_camadas.png" /></p>
 </br>
 
+<h2>Modelo de quatro camadas</h2>
 
+<p>Outro grande avanço obtido nesse modelo foi <strong>tirar da máquina cliente a responsabilidade pela interface com o usuário,</strong> passando a centralizá-las em um único ponto, normalmente em um servidor web. Com isso, no lugar de aplicações instaladas em cada máquina cliente, passamos a ter os clientes acessando as aplicações hospedadas em servidores web a partir de navegadores. Neste modelo; a divisão de responsabilidades ficou da seguinte forma:</p>
+
+<ul>
+    <li>Cliente</li>
+        <ul>Passou a precisar apenas de um navegador para ter acesso à aplicação.</ul>
+    <li>Servidor</li>
+        <ul>Composto pode três servidores, o de aplicações, o de dados e o web, sendo este o último responsável pela apresentação/interface com o usuário cliente.</ul>
+</ul>
+</br>
+<strong>Exemplo:</strong>
+</br>
+<p><img alt="Modelo de quatro camadas" src="/midia/modelo_quatro_camadas.png" /></p>
+</br>
+
+<h2>Ambiente web</h2>
+
+<p>Inicialmente as aplicações ficavam hospedadas dentro de uma rede interna, onde estavam tanto os clientes quanto os servidores. Posteriormente, eles migraram para a internet, surgindo então o <strong>ambiente web</strong>, cuja base é justamente prover aos clientes, usuários, o acesso a várias aplicações a partir de diversos dispositivos, como navegadores desktop e smartphones ou apartir de aplicações mobile.</p>
+
+<h2>Comunicação no ambiente web</h2>
+
+<p>A comunicação neste ambiente, é feita sobre a internet, com o uso dos seus protocolos de comunicação, sendo o principal o protocolo <strong>HTTP</strong>(HyperText Transfer Protocol), que é um protocolo para transferência de hipertexto. Na imagem seguinte, podemos ver um exemplo de comunicação no ambiente web.</p>
+
+<p><img alt="Exemplo comunicação em ambiente web" src="/midia/comunicacao_ambiente_web" /></p>
 
 
 
