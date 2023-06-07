@@ -67,7 +67,47 @@ Neste modelo temos as camadas cliente e servidor, sendo função da primeira tra
 
 <p>A comunicação neste ambiente, é feita sobre a internet, com o uso dos seus protocolos de comunicação, sendo o principal o protocolo <strong>HTTP</strong>(HyperText Transfer Protocol), que é um protocolo para transferência de hipertexto. Na imagem seguinte, podemos ver um exemplo de comunicação no ambiente web.</p>
 
-<p><img alt="Exemplo comunicação em ambiente web" src="/midia/comunicacao_ambiente_web" /></p>
+<p><img alt="Exemplo comunicação em ambiente web" src="/midia/comunicacao_ambiente_web.png" /></p>
 
+<h2>Ambiente Cliente X Servidor</h2>
 
+<h3>Solicitação e resposta</h3>
 
+<p>O processo de comunicação no ambiente web é conhecido como solicitação (request) e resposta (response). Normalmente a solicitação é iniciada pelo cliente, mas também é possível que o servidor a inicie, como em serviços PUSH</p>
+<i>Serviços que disparam notificações/mensagens para os clientes que fizeram opção de recebê-las.</i>
+
+<p><img alt="Processo solicitação (request) e resposta (response)" src="/midia/request_response.png" /></p>
+
+<h2>Conceito de interface</h2>
+
+<p>O conceito de interface pode ser resumido como o estudo da interação entre humanos e computadores. Neste contexto, a interface, muitas vezes chamada de interface do utilizador, é quem provê a interação entre o ser humano e o computador.</p>
+
+<h2>A interface do lado cliente</h2>
+
+<p>A evolução tecnológica levou a uma crescente utilização de dispositivos móveis que possuem os mais <strong> variados tamanhos de tela e funcionalidades.</strong>Sobre essa variedade nas características dos dispositivos utilizados na interface para o acesso a aplicações no ambiente web, é necessário garantir usabilidade, ou seja, que sejam desenvolvidos sistemas fáceis de usar e aprender, alem de flexíveis.Partindo do ponto de vista da usabilidade, essa deve estar alinhada ao conceito de design responsivo, o qual deverá permitir que as páginas web e consequentemente as aplicações web respondam a qualquer dispositivo sem perda de informações por parte do usuário.</p>
+<p>O site [StatCounter Global Stats](https://gs.statcounter.com/) mantem ativa uma série de dados e estatísticas sobre dispositivos, tamanhos de tela, além de outras informações relacionadas.Sobre o tamanho das telas.</p>
+<h2>O conceito do design responsivo</h2>
+<h3>Design responsivo</h3>
+<p>O <strong>Design responsivo</strong> é a abordagem que sugere que o design e o desenvolvimento devam responder ao comportamento e ao ambiente do usuário com base no tamanho da tela, na plataforma e na orientação do dispositivo por ele utilizado</p>
+****
+<h3>Design responsivo na prática</h3>
+<p>Ao aplicarmos o conceito de design responsivo, fazemos uso de uma combinação de técnicas, como <strong>layouts, media query e scripts</strong></p>
+
+<h3><i>Layouts fluídos</i></h3>
+
+<p>Para entender o conceito de layout fluido, é necessário entender primeiro o que seria o seu oposto, <i>Layout fixo</i>.</p>
+
+<h4>Layout fixo</h4>
+<p>As dimensões (Largura x Altura)dos elementos de uma página web são definidos com a utilização de unidades de medidas fixas, como os píxels.Desta forma, tais elementos não se adaptam as alturas no tamanho do campo de visão dos dispositivos que os visualiza.</p>
+</br>
+<h4>Layout fluído</h4>
+<p>Os layouts fluídos fazem uso de unidades flexíveis, no lugar de definir as dimensões com o uso de quantidades fixas são utilizados valores flexíveis. Isso permite, por exemplo, que em vez de definir que o cabeçalho de uma página tenha 1366px de largura, possamos definir que ele ocupe 90% do tamanho da tela do dispositivo que o visualiza. Daí o conceito fluído, ou seja, de adaptabilidade ao campo de visão conforme dimensões do dispositivo que visualiza a página.</p>
+
+<p>Alem dos valores percentuais, as outras medidas flexíveis são:</p>
+</br>
+<dl>
+    <dt><strong>Layout fixo</strong></dt>
+        <dl>As dimensões (Largura x altura) dos elementos de uma página web são definidos com a utilização de medidas fixas, como os píxels. Desta forma, os elementos não se adaptam as alterações no tamanho do campo de visão dos dispositivos que os visualiza.</dl>
+    <dt><strong>Layout fluído</strong></dt>
+        <dl>Fazem uso de unidades flexíveis, no lugar de definir as dimensões com o uso de quantidades fixas são utilizados valores flexíveis. Isso permite, por exemplo, que em vez de definir que o cabeçalho de uma página tenha 1366px de largura, possamos definir que ele ocupe 90% do tamanho da tela do dispositivo. Daí o conceito fluído, a adaptabilidade ao campo de visão conforme as dimensões do dispositivo que visualiza a página.<dl>
+</dl>
