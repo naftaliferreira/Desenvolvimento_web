@@ -111,3 +111,36 @@ Neste modelo temos as camadas cliente e servidor, sendo função da primeira tra
     <dt><strong>Layout fluído</strong></dt>
         <dl>Fazem uso de unidades flexíveis, no lugar de definir as dimensões com o uso de quantidades fixas são utilizados valores flexíveis. Isso permite, por exemplo, que em vez de definir que o cabeçalho de uma página tenha 1366px de largura, possamos definir que ele ocupe 90% do tamanho da tela do dispositivo. Daí o conceito fluído, a adaptabilidade ao campo de visão conforme as dimensões do dispositivo que visualiza a página.<dl>
 </dl>
+
+<p>Alem dos valores percentuais, há outras unidades de medidas flexíveis, por exemplo:</p>
+
+*   EM
+
+    *   Unidade de medida tipográfica, estando relacionada a letra "M".    
+
+*   REM
+
+    *   Enquanto EM está relacionado ao tamanho do elemento em contexto, no REM definimos que o elemento de contexto, o elemento pai, sempre será a tag HTML < body >. Daí a letra "R" de raiz (Root).
+
+<p><i>Mais informações sobre as unidades, fíxas e flexíveis basta acessar o site W3C - CSS Units</i></p>
+
+<h2>Media query</h2>
+
+<p>A função de apresentar, estruturar o layout de uma página no ambiente web, cabe as <strong>folhas de estilo CSS.</strong>Para entender o que media query é importante saber o que é o CSS. Nesse contexto, media query é a utilização de media types (tipos de midia) apartir de uma ou mais expressões para definir formatações para dispositivos diversos.Por exemplo, podemos definir que determinado estilo de um ou mais elementos seja aplicado apenas a dispositivos cuja largura máxima de tela seja igual ou maior a 600px.</p>
+
+<p><strong>Exemplo:</strong></p>
+
+~~~
+<style type="text/css">
+@media (max-width:360px)
+{
+    .menu_lateral
+    {
+        display: none;
+    }
+}
+</style>
+~~~
+<p>O resultado das expressões utilizadas na media query pode ser True ou False. No caso acima, será verdadeiro sempre que a largura da tela do dispositivo que visualiza a página for inferior a 360px. Do contrário, será False, ou seja, para todos os dispositivos cuja largura de tela seja superior a 360px, o código CSS em questão será ignorado.</p>
+
+<h2>Scripts</h2>
