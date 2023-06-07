@@ -89,7 +89,7 @@ Neste modelo temos as camadas cliente e servidor, sendo função da primeira tra
 <h2>O conceito do design responsivo</h2>
 <h3>Design responsivo</h3>
 <p>O <strong>Design responsivo</strong> é a abordagem que sugere que o design e o desenvolvimento devam responder ao comportamento e ao ambiente do usuário com base no tamanho da tela, na plataforma e na orientação do dispositivo por ele utilizado</p>
-****
+
 <h3>Design responsivo na prática</h3>
 <p>Ao aplicarmos o conceito de design responsivo, fazemos uso de uma combinação de técnicas, como <strong>layouts, media query e scripts</strong></p>
 
