@@ -85,7 +85,7 @@ Neste modelo temos as camadas cliente e servidor, sendo função da primeira tra
 <h2>A interface do lado cliente</h2>
 
 <p>A evolução tecnológica levou a uma crescente utilização de dispositivos móveis que possuem os mais <strong> variados tamanhos de tela e funcionalidades.</strong>Sobre essa variedade nas características dos dispositivos utilizados na interface para o acesso a aplicações no ambiente web, é necessário garantir usabilidade, ou seja, que sejam desenvolvidos sistemas fáceis de usar e aprender, alem de flexíveis.Partindo do ponto de vista da usabilidade, essa deve estar alinhada ao conceito de design responsivo, o qual deverá permitir que as páginas web e consequentemente as aplicações web respondam a qualquer dispositivo sem perda de informações por parte do usuário.</p>
-<p>O site [StatCounter Global Stats](https://gs.statcounter.com/) mantem ativa uma série de dados e estatísticas sobre dispositivos, tamanhos de tela, além de outras informações relacionadas.Sobre o tamanho das telas.</p>
+<p>O site [StatCounter Global Stats] (https://gs.statcounter.com/) mantem ativa uma série de dados e estatísticas sobre dispositivos, tamanhos de tela, além de outras informações relacionadas.Sobre o tamanho das telas.</p>
 <h2>O conceito do design responsivo</h2>
 <h3>Design responsivo</h3>
 <p>O <strong>Design responsivo</strong> é a abordagem que sugere que o design e o desenvolvimento devam responder ao comportamento e ao ambiente do usuário com base no tamanho da tela, na plataforma e na orientação do dispositivo por ele utilizado</p>
