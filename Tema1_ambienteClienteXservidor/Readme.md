@@ -85,7 +85,7 @@ Neste modelo temos as camadas cliente e servidor, sendo função da primeira tra
 <h2>A interface do lado cliente</h2>
 
 <p>A evolução tecnológica levou a uma crescente utilização de dispositivos móveis que possuem os mais <strong> variados tamanhos de tela e funcionalidades.</strong>Sobre essa variedade nas características dos dispositivos utilizados na interface para o acesso a aplicações no ambiente web, é necessário garantir usabilidade, ou seja, que sejam desenvolvidos sistemas fáceis de usar e aprender, alem de flexíveis.Partindo do ponto de vista da usabilidade, essa deve estar alinhada ao conceito de design responsivo, o qual deverá permitir que as páginas web e consequentemente as aplicações web respondam a qualquer dispositivo sem perda de informações por parte do usuário.</p>
-<p>O site [StatCounter Global Stats] (https://gs.statcounter.com/) mantem ativa uma série de dados e estatísticas sobre dispositivos, tamanhos de tela, além de outras informações relacionadas.Sobre o tamanho das telas.</p>
+<p>O site <a href = "https://gs.statcounter.com/">StatCounter Global Statistcs </a> mantem ativa uma série de dados e estatísticas sobre dispositivos, tamanhos de tela, além de outras informações relacionadas.Sobre o tamanho das telas.</p>
 <h2>O conceito do design responsivo</h2>
 <h3>Design responsivo</h3>
 <p>O <strong>Design responsivo</strong> é a abordagem que sugere que o design e o desenvolvimento devam responder ao comportamento e ao ambiente do usuário com base no tamanho da tela, na plataforma e na orientação do dispositivo por ele utilizado</p>
@@ -111,63 +111,3 @@ Neste modelo temos as camadas cliente e servidor, sendo função da primeira tra
     <dt><strong>Layout fluído</strong></dt>
         <dl>Fazem uso de unidades flexíveis, no lugar de definir as dimensões com o uso de quantidades fixas são utilizados valores flexíveis. Isso permite, por exemplo, que em vez de definir que o cabeçalho de uma página tenha 1366px de largura, possamos definir que ele ocupe 90% do tamanho da tela do dispositivo. Daí o conceito fluído, a adaptabilidade ao campo de visão conforme as dimensões do dispositivo que visualiza a página.<dl>
 </dl>
-
-<p><i>Além dos valores percentuais, há outras unidades de medidas flexíveis.</i></p>
-
-<h2>Media query</h2>
-<p>Função de apresentação, de estruturar o layout de uma página, no ambiente web, cabe as <strong>folhas de estilo (CSS)</strong>. Media query é a utilização de media types (tipos de mídia) apartir de uma ou mais expressões para definir formatações para dispositivos diversos. Com o seu uso podemos, por exemplo, definir que determinado estilo de um ou mais elementos seja aplicado apenas a dispositivos cuja largura máxima de tela seja menor ou igual a 600px.</p> 
-
-<p>Exemplo de fragmento de código em que uma média query é utilizada para impedir que um menu lateral seja exibido caso a largura da tela do dispositivo seja menor que 360px</p>
-
-~~~
-<style type="text/css">
-@media (max-width: 360px)
-{
- .menu_lateral
-  {
-   display: nome;
-   }
-}
-
-~~~
-<p>O resultado das expressões utilizadas na media query pode ser True ou False. No caso acima, será True sempre que a largura da tela do dispositivo for inferior a 360px. Do contário será False, e o código CSS em questão será ignorado.</p>
-
-<h2>Scripts</h2>
-
-<p>Quando se trata de scripts no lado cliente, no ambiente web, uma das linguagens mais utilizadas é o <strong>JavaScript</strong>.A linguagem adiciona interação a uma página web, permitindo por exemplo, atualização dinâmica de conteúdos, o controle de multimídia, a animação de imagens e muito mais.No contexto design responsivo, sua faceta mais importante é a de atualização dinâmica de conteúdo, e não só do conteúdo, mas também da apresentação dele.</p>
-
-<h3>Design responsivo X design adaptativo</h3>
-<p>A aplicação desses dois conceitos acontece da seguinte forma:</p>
-
-| Design responsivo | Design adaptativo |
-|-----|--------|
-| Medias queries são utilizadas, em conjunto com script para criar um layout fluido que se adapte a adequação de seus elementos. |  Um site é planejado e construido com a definição de seis layouts predefinidos, em que são previstos pontos de quebra em que uma página se adapte as seis diferentes dimensões utilizadas.|
-
-<h3>Mobile first</h3>
-<p>Uma das abordagens de design responsivo mais utilizado atualmente é a mobile first. Tal abordagem está centrada no crescente uso de dispositivos móveis na navegação no ambiente web e defende que em primeiro lugar seja pensado o design para telas menores e, posteriormente para telas maiores.</p>
-<p>Tal conceito é conhecido como <i>Progressive enhacement</i> "enfoque progressivo" diferente do desenvolvimento web tradicional que temos o conceito <i>Graceful defradation</i> "degradação graciosa":</p>
-
-<h2>Tecnologias do lado cliente</h2>
-
-| HTML | CSS | Javascript |
-|---|---|---|
-| Linguagem de marcacao de hypertexto | Cascading Style Sheets "folhas de estilo em cascata" | Linguagem de programação multiparadigma |
-| Responsável por definir a estruytura a página web | linguagem declarativa responsável por controlar a apresentação visual de páginas web | fornece interatividade  |
-
-
-<h2>Tecnologias do lado Servidor</h2>
-
-<h3>PHP<h3>
-<p>PHP é uma linguagem de programação server side, uma das principais funções destas linguagens é de permitir o acesso  informações armazenadas em bancos de dados.Existem diversas linguagens disponíveis no mercado para o lado servidor como Java, Python, ASP, .NET e o PHP.</p>
-<p><strong>PHP</strong> é uma linguagem de programação baseada em script, opensource e destinada sobreturo ao desenvolvimento web.</p>
-
-<h3>Como o PHP funciona?</h3>
-<p>O PHP é uma <strong>linguagem interpretada</strong>, ou seja, precisa "rodar" sobre um servidor web. Com isso, todo o código gerado é interpretado pelo servidor, convertido em formato html e então exibido no navegador.</p>
-
-1. Etapa 1: O código PHP gerado é interpretado pelo navegador.
-2. Etapa 2: Esse código é convertido em formato html.
-3. Etapa 3: O código é exibido no navegador. 
-
-<p>Logo, o código-fonte não pode ser visto no lado cliente , mas apenas o HTML gerado.</p>
-
-<h3>Páginas dinâmicas e acesso a dados</h3>
