@@ -7,7 +7,7 @@
 <p>Matérias deste curso:</p>
 
 <ul>
-    <li>[Desenvolvimento web e suas tecnologias](/Tema1_ambienteClienteXservidor/Readme.md)</li>
+    <li>[Desenvolvimento web e suas tecnologias](./Tema1_ambienteClienteXservidor/Readme.md)</li>
     <li>Linguagem de marcação hipertexto - HTML</li>
     <li>Linguagem de marcação e estilos -CSS</li>
     <li>Linguagem javascript</li>
