@@ -144,3 +144,208 @@ Neste modelo temos as camadas cliente e servidor, sendo função da primeira tra
 <p>O resultado das expressões utilizadas na media query pode ser True ou False. No caso acima, será verdadeiro sempre que a largura da tela do dispositivo que visualiza a página for inferior a 360px. Do contrário, será False, ou seja, para todos os dispositivos cuja largura de tela seja superior a 360px, o código CSS em questão será ignorado.</p>
 
 <h2>Scripts</h2>
+
+<p>Uma das linguagens de programação mais comuns no ambiente web é os Javascript. Essa linguagem adiciona interação a uma página web, permitindo, por exemplo, a atualização dinâmica de conteúdos, o controle de multimídia, a animação de imagens e muito mais. No contexto de design responsivo, sua faceta mais importante é a de atualização dinâmica de conteúdo, não só do conteúdo, mas também da apresentação dele.</p>
+
+<h2>Design responsivo x design adaptativo</h2>
+<p>O conceito de design adaptativo, muitas vezes, é confundido com o design responsivo. Assim como visto anteriormente, consiste na utilização de uma combinação de técnicas para ajustar um site automaticamente em função do tamanho da tela dos dispositivos utilizados pelos usuários, no design adaptativo são usados layout estáticos baseados em pontos de quebra (ou de interrupção), que após o tamanho da tela ser detectado, é carregado um layout apropriado para ele.</p>
+<p><i>A aplicação desses dois conceitos na prática acontece da seguinte forma:</i></p> 
+
+<h3>Design responsivo</h3>
+	
+<p>Media queries são utilizadas, em conjunto com scripts, para criar um layout fluido que se adapte por meio da adequação das dimensões de seus elementos, ao tamanho da tela do dispositivo utilizado pelo visitante.</p> 
+	
+<h3>Design adaptativo</h3>
+
+<p>Um site é planejado e construido com a definição de seis layouts predefinidos, em que são previstos pontos de quebra para que a página se adapte as seis diferentes dimensões utilizadas.</p> 
+
+<h3>Mobile first</h3>
+<p>Uma das abordagens mais utilizadas atualmente, essa abordagem está centrada no crescente uso de dispositivos móveis na navegação no ambiente web e defende que em primeiro lugar, seja pensado o design para telas menores, e postoriormente, para telas maiores. Trata-se de enfoque progressivo <i>(progressive enhancement)</i>, no qual se parte dos recursos e tamanho de tela disponíveis nos dispositivos menores, progredindo com adição de recursos e conteúdo tendo em vista as telas e os dispositivos maiores. A contraponto com o desenvolvimento web tradicional, em que temos o conceito de degradação graciosa <i>(graceful degradation)</i>.</p>
+
+<p>A aplicação prática do mobile first consiste em planejar o desenvolvimento de um site priorizando os recursos e as caracteristicas presentes nos dispositivos móveis, como tamanho de tela, largura de banda disponível e até mesmo recursos específicos, como os de localização, por exemplo.</p>
+
+<h2>Tecnologias do lado cliente</h2>
+
+<h3>HTML</h3>
+
+<p>Considerada a tecnologia fundamental da web, pois sua função é a de definir a estrutura de uma página web. É uma linguagem de marcação simples, composta por elementos, chamados tags, que são relacionados a textos e outros conteúdos a fim de dar-lhes significado.</p> 
+
+<p><i>As tags podem ser agrupadas nos seguintes tipos:</i></p> 
+
+<h3>Estruturais</h3>
+<p>Estrutura obrigatória de uma página web:</p>
+
+-> imagem
+
+<h3>De conteúdo</h3>
+<p>Tags de conteúdo de uma página web:</p>
+
+-> imagem
+
+
+<h3>Tags básicas de uma página web:</h3>
+
+-> imagem
+
+<p>Uma listagem completa de tags e atributos pode ser encontrada no site do W3C.</h3> 
+
+<h2>CSS</h2>
+
+<p>Trata-se de uma declarativa cuja função é a apresentação visual de páginas web. Com isso, tem-se a separação de funções em relação a HTML. A sigla significa Cascading Style Sheets (folhas de estilo em cascata).</p> 
+
+<h3>Sintaxe</h3>
+
+<p>Consiste em uma declaração em que são definidos os elementos e os estilos que desejamos aplicar a eles.</p>
+
+<h3>O seletor</h3>
+Um elemento HTML (body, div, p etc) ou o seu identificador (atributo id) ou classe (atributo class). 
+
+<h3>A propriedade</h3>
+<p>Caracteristica do elemento (cor, fonte, posição, etc).</p>
+
+<h3>O valor</h3>
+<p>Novo parâmetro a ser aplicado a caracteristica do elemento. </p>
+
+-> imagem de aplicação de CSS. 
+
+<p>A respeito dos seletores, propriedades existentes e mais detalhes sobre a CSS, é recomendado ler o guia de referencia do próprio W3C.</p>
+
+
+<h2>Tecnologias lado cliente: HTML5, CSS3 e JavaScript</h2>
+
+<h3>Como inserir o CSS na página web</h3>
+<p>Há quatro formas de inserir o CSS em um documento: </p>
+
+*	<strong>Inline</strong>
+
+	* São aplicados com a utilização do atributo "style" seguido de uma ou mais propriedades/valores. 
+
+*	<strong>Interno</strong>
+
+	*	São definidos com a utilização da tag < style > dentro de < head >.
+
+*	<strong>Externo</strong>
+
+	*	Forma preferencial de inserir estilos. É usado de forma externa com arquivo.css, contendo apenas estilos. Para vincular basta usar a tag < link > dentro de < head >. 
+
+*	<strong>Escopo</strong>
+
+	*	Forma introduzida no html5, da mesma forma que inline, entretanto, no lugar de ser declarada no < head >, é declarado dentro da tag a qual se quer aplicar estilos. 
+
+
+<h3><i>Boas práticas</i></h3>
+
+<p><i>É uma boa prática e fortemente recomendado utilizar a forma extrema para incluir CSS em uma página web. Dessa forma mantem o código organizado, separa o html do estilo. Outra boa prática, tendo em vista o desenpenho do carregamento da página web é compactar o arquivo, usando minificação.</i></p> 
+
+<h2>Javascript</h2>
+
+<p>Trata-se de uma linguagem de programação que, assim como o CSS, é interpretada pelo navegador. Entre suas principais caracteristicas, destaca-se o fato de ser multiparadigma. Sua função é fornecer interatividade a páginas web.</p>
+
+<h3>Sintaxe</h3>
+
+<p>A sintaxe é ao mesmo tempo, amigável, simples e completa. Embora criado para ser leve, uma vez que é interpretado nativamente pelos navegadores, trata-se de uma linguagem de programação completa. Seus códigos podem ser tanto estruturados quanto orientados a objetos. É possível usar bibliotecas, como Jquery, Prototype etc. sejam criadas apartir do seu core, estendendo a sua funcionalidade.</p>
+
+<h3>Jquery</h3>
+<p>É uma biblioteca Javascript rápida, pequena e rica em recursos que simplifica processos como a manipulação de documentos HTML, eventos, animação, alem do AJAX (Jquery).</p>
+
+<h3>Prototype</h3>
+<p>É um framework Javascript de código aberto, modular e orientado a objetos que provê extensões ao ambiente de script do navegador, fornecendo APIs para manipulação do DOM e Ajax (Prototype.js).</p>
+
+<h3>Como inserir Javascript na página web</h3>
+
+-> tutorial
+
+ 
+<h2>Tecnologias do lado servidor</h2>
+
+<h3>PHP: uma linguagem de programação server side</h3>
+
+<p>Uma das principais funções das linguagens de programação server side é permitir o acesso a informações armazenadas em bancos de dados. Uma vez que apenas utilizando HTML e Javascript não é possível, faz-se necesária a utilização de uma das linguagens no lado servidor. Entre as diversas linguagens disponiveis no lado servidor estão o Java, o Python, o ASP, o .NET e o PHP.</p> 
+
+<p>PHP (Hypertext Preprocessor) é uma linguagem de programação baseada em script, opensource e destinada, sobretudo, ao desenvolvimento web. Trata-se de uma linguagem criada para ser simples, tendo nascida estruturada e, posteriormente, adotado o paradigma de orientação a objetos, apenas 10 anos depois da sua criação.</p>
+
+<h3>Como o PHP funciona</h3>
+
+<p>O php é uma linguagem interpretada, ou seja, ela precisa "rodar" sobre um servidor web. Com isso, todo o código gerado é interpretado pelo servidor, convertido em formato HTML e então exibido no navegador.</p>
+
+* Etapa 1: O código PHP gerado é interpretado pelo servidor. 
+* Etapa 2: Esse código é convertido em formato HTML. 
+* Etapa 3: O código é exibido no navegador. 
+
+<p>Logo o código-fonte não pode ser visto no lado cliente, mas apenas o HTML gerado.</p> 
+
+<p>Outra caracteristica importante do PHP é poder ser utilizado na maior parte dos sistemas operacionais, assim como em vários servidores web diferentes, como o Apache, o IIS e o Nginx, entre outros.</p>
+
+<h3>Anatomia de um script PHP</h3>
+
+<p>Um script PHP é composto por código delimitado pelas tags < ?php e ?>. A última, de fechamento não é obrigatória. Devido a sua simplicidade, um mesmo script PHP pode conter tanto código estruturado quanto orientado a objetos. Pode até conter código de marcação HTML. Nesse último caso, o código próprio do PHP deverá ficar entre as tags de abertura e fechamento.</p>
+
+<h3>Sintaxe</h3>
+
+<p>A seguir um resumo sobre a sintaxe do PHP:</p>
+
+<h3>Variáveis</h3>
+
+<p>No PHP, as variáveis são criadas com a utilização do símbolo de cifrão ($). Além disso, PHP é case
+sensitive, ou seja, sensível a letras maiúsculas e minúsculas, pois faz diferença quando utilizamos
+uma e outra.</p>
+
+<h3>Tipos de dados</h3>
+<p>O PHP é uma linguagem fracamente tipada. Logo, embora possua suporte para isto, não é necessário definir o tipo de uma variável em sua declaração. Os tipos de dados disponíveis em PHP são: booleanos, inteiros, números de ponto flutuante, strings, arrays, interáveis (iterables), objetos, recursos, NULL e call-backs.</p>
+
+<h3>Operadores condicionais</h3>
+<p>No PHP, há suporte às condicionais if, else, if e else ternários, if else e switch.</p>
+
+<h3>Laços de repetição</h3>
+<p>No PHP estão disponíveis os laços for, foreach, while e do-while.</p>
+
+<h3>Funções e métodos</h3>
+<p>O código PHP possui uma grande quantidade de funções e métodos nativos.</p>
+
+
+<h3>Inclusão de scripts dentro de scripts</h3>
+
+<p>O PHP permite a inclusão de um script dentro de outro script. Isso é muito útil, sobretudo se pensarmos no
+paradigma de orientação a objetos, em que temos, em um programa, diversas classes, codificadas em diferentes scripts. Logo, sempre que precisarmos fazer uso de uma dessas classes, de seus métodos ou atributos, basta incluí-la no script desejado. Para incluir um script em outro, o PHP disponibiliza algumas funções:</p>
+
+*   Include
+*   Require
+*   Include once
+*   Require_once
+
+<h3>Acesso ao sistema de arquivos</h3>
+
+<p>Por meio do PHP é possível ter acesso ao sistema de arquivos do servidor web. Com isso, pode-se por
+exemplo, manipular arquivos e diretórios, desde a simples listagem à inclusão ou exclusão de dados.</p>
+
+<h2>Páginas dinâmicas e acesso a dados</h2>
+
+<h3>Páginas dinâmicas</h3>
+
+<p>Para entender o que são páginas dinâmicas, é necessário entender o seu antônimo, as páginas estáticas.<p> 
+
+> HTML + JavaScript + CSS, sem conexão com uma linguagem de programação, formam o que podemos chamar de páginas estáticas. 
+> Embora seja até possível termos um site inteiro composto por páginas estáticas, isso seria muito trabalhoso e também nada usual.
+
+<h4>Exemplo</h4>
+<p>Imagine um site que tenha, por exemplo, dez páginas. Agora imagine que esse site tenha a mesma estrutura
+visual, o mesmo cabeçalho, menu, rodapé e outros pontos em comum. Pense em um blog, por exemplo,
+onde o que muda são os conteúdos dos posts. No site estático, teríamos que escrever dez diferentes
+arquivos HTML, modificando o conteúdo em cada um deles, diretamente nas tags HTML, e só
+conseguiríamos reaproveitar os estilos e a interatividade de navegador utilizando CSS e JavaScript externos.
+Entretanto, todo o conteúdo precisaria ser digitado e muito código HTML repetido. Todo esse trabalho nos
+ajuda a entender o que são páginas estáticas.</p>
+
+<p>Ainda utilizando o exemplo de um blog, imagine que você deseja receber comentários em seus posts,
+deseja que seus visitantes possam interagir com você e vice-versa. Como fazer isso? A resposta, como você
+já deve imaginar, é: páginas dinâmicas</p>
+
+> A combinação das tecnologias do lado cliente com as tecnologias do lado servidor produzem as páginas dinâmicas.
+
+<p>Nelas, é possível receber as informações provenientes do cliente, processá-las, guardá-las, recuperá-las e
+utilizá-las sempre que desejarmos. E não é só isso: podemos guardar todo o conteúdo do nosso blog no
+banco de dados. Com isso, teríamos apenas uma página PHP que recuperaria nosso conteúdo no banco e o
+exibiria no navegador. A tabela a seguir apresenta um pequeno resumo comparativo entre as páginas
+estáticas e dinâmicas.</p>
+
+tabela exemplo de páginas estáticas x páginas dinâmicas-----> 
