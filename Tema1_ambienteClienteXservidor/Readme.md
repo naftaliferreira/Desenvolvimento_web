@@ -175,17 +175,17 @@ Neste modelo temos as camadas cliente e servidor, sendo função da primeira tra
 <h3>Estruturais</h3>
 <p>Estrutura obrigatória de uma página web:</p>
 
--> imagem
+<p><img alt="estruturais" src="/midia/estruturais.png" /></p>
 
 <h3>De conteúdo</h3>
 <p>Tags de conteúdo de uma página web:</p>
 
--> imagem
+<p><img alt="de conteúdo" src="/midia/deconteudo.jpg" /></p>
 
+<h3>Semanticas</h3>
+<p>Tags básicas de uma página web:</p>
 
-<h3>Tags básicas de uma página web:</h3>
-
--> imagem
+<p><img alt="semanticas" src="/midia/semanticas.jpg" /></p>
 
 <p>Uma listagem completa de tags e atributos pode ser encontrada no site do W3C.</h3> 
 
@@ -206,7 +206,7 @@ Um elemento HTML (body, div, p etc) ou o seu identificador (atributo id) ou clas
 <h3>O valor</h3>
 <p>Novo parâmetro a ser aplicado a caracteristica do elemento. </p>
 
--> imagem de aplicação de CSS. 
+<p><img alt="exemplo código CSS" src="/midia/codCSS.png" /></p>
 
 <p>A respeito dos seletores, propriedades existentes e mais detalhes sobre a CSS, é recomendado ler o guia de referencia do próprio W3C.</p>
 
@@ -253,8 +253,14 @@ Um elemento HTML (body, div, p etc) ou o seu identificador (atributo id) ou clas
 
 <h3>Como inserir Javascript na página web</h3>
 
--> tutorial
+<h4>Diretamente em um arquivo HTML</h4>
+<p>Umas das formas mais conhecidas é usando a tag < script >< script >, que deve abranger todo o código JS. O código pode ser adicionado:</p>
+* Entre as tags < head >
+* Entre as tags < body >
 
+<p>Dependendo de onde você adicionar o código JavaScript no arquivo HTML, o carregamento é diferente. A prática recomendada é inseri-lo na seção <head>, pois ele ficará separado do conteúdo real do arquivo HTML.</p>
+
+<p>Mas saiba que, colocá-lo na seção < body > poderá melhorar a velocidade de carregamento, já que o conteúdo do site atual será carregado mais rapidamente, e somente então o JavaScript será analisado. Para este exemplo, vamos dar uma olhada no arquivo HTML abaixo, usado para mostrar o horário atual.</p>
  
 <h2>Tecnologias do lado servidor</h2>
 
@@ -280,9 +286,19 @@ Um elemento HTML (body, div, p etc) ou o seu identificador (atributo id) ou clas
 
 <p>Um script PHP é composto por código delimitado pelas tags < ?php e ?>. A última, de fechamento não é obrigatória. Devido a sua simplicidade, um mesmo script PHP pode conter tanto código estruturado quanto orientado a objetos. Pode até conter código de marcação HTML. Nesse último caso, o código próprio do PHP deverá ficar entre as tags de abertura e fechamento.</p>
 
+<p><img alt="Exemplo PHP" src="/midia/php1.png" /></p>
+
+<p><img alt="Outro exemplo PHP" src="/midia/php2.png" /></p>
+
 <h3>Sintaxe</h3>
 
 <p>A seguir um resumo sobre a sintaxe do PHP:</p>
+
+<h4>Eventos e manipulação DOM</h4>
+<p>Essa linguagem oferece amplo suporte à manipulação de eventos relacionados a elementos HTML. É possível, por exemplo, utilizar um elemento < button > (botão) que, ao ser clicado, exiba uma mensagem na tela. Ou ainda aumentar o tamanho de uma fonte ou diminuí-lo.</p>
+
+<h4>Mensagem e entrada de dados</h4>
+<p>O JavaScript possui suporte a funções nativas para a exibição de caixas de diálogo para entrada de dados ou exibição de mensagens, como alertas, por exemplo.</p>
 
 <h3>Variáveis</h3>
 
@@ -348,4 +364,8 @@ banco de dados. Com isso, teríamos apenas uma página PHP que recuperaria nosso
 exibiria no navegador. A tabela a seguir apresenta um pequeno resumo comparativo entre as páginas
 estáticas e dinâmicas.</p>
 
-tabela exemplo de páginas estáticas x páginas dinâmicas-----> 
+<p><img alt="Tabela de comparação entre páginas estáticas e páginas dinâmicas" src="/midia/tabela_dinamicas_estaticas.png" /></p>
+
+<p><i>Outra importante característica de um site dinâmico é possibilitar a utilização de ferramentas de gestão de conteúdo (CMS) para manter as informações do site sempre atualizadas. Porém, no site estático, será preciso modificar diretamente o HTML.</i></p>
+
+<h3>Acesso a dados<h3>
