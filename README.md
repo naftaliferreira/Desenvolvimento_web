@@ -6,13 +6,13 @@
 
 <p>Matérias deste curso:</p>
 
-<ul>
-    <li>[Desenvolvimento web e suas tecnologias](Tema1_ambienteClienteXservidor/Readme.md)</li>
-    <li>Linguagem de marcação hipertexto - HTML</li>
-    <li>Linguagem de marcação e estilos -CSS</li>
-    <li>Linguagem javascript</li>
-    <li>Programação de páginas dinâmicas com PHP</li>
-    <li>Integração do PHP com banco de dados</li>
-<u/l>
+
+[Desenvolvimento web e suas tecnologias](Tema1_ambienteClienteXservidor/Readme.md)
+Linguagem de marcação hipertexto - HTML
+Linguagem de marcação e estilos -CSS
+Linguagem javascript
+Programação de páginas dinâmicas com PHP
+Integração do PHP com banco de dados
+
 
 ***
