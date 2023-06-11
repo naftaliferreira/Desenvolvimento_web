@@ -19,13 +19,14 @@
 <p>Doctype não é uma tag HTML, mas sim uma instrução.Uma declaração que serve para informar ao navegador qual a versão do HTML usada em um arquivo HTML.</p>
 
 <h3>Raiz (Root)</h3>
-~~~~~~
+ˋˋˋ
 <hml></html>  
-~~~~~~
+ˋˋˋ
 <h3>comentário, cabe destacar o atributo lang, deve ser inserido dentro da tag raiz:</h3>
-~~~~~~
+
+ˋˋˋ
 < html lang="en-US">
 <html lang="en-GB">
 <html lang="pt-BR">
 <html lang="pt">
-~~~~~~
+ˋˋˋ
