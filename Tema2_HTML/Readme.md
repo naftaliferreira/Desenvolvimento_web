@@ -18,15 +18,177 @@
 
 <p>Doctype não é uma tag HTML, mas sim uma instrução.Uma declaração que serve para informar ao navegador qual a versão do HTML usada em um arquivo HTML.</p>
 
-<h3>Raiz (Root)</h3>
-ˋˋˋ
-<hml></html>  
-ˋˋˋ
-<h3>comentário, cabe destacar o atributo lang, deve ser inserido dentro da tag raiz:</h3>
+Raiz (Root)
 
-ˋˋˋ
+    <hml><html/>  
+
+comentário, cabe destacar o atributo lang, deve ser inserido dentro da tag raiz:
+~~~~~~
 < html lang="en-US">
 <html lang="en-GB">
 <html lang="pt-BR">
 <html lang="pt">
-ˋˋˋ
+~~~~~~
+
+< head > // cabeçalho
+
+Dentro do cabeçalho do documento algumas tags importantes também fazem parte:
+
+< title > // título do documento
+
+< meta > // engloba informações como descrição, palavras-chave, etc. 
+
+< script > // responsável pela inclusão e ou definição de scripts
+
+< link > // responsável pela inclusão de folhas de estilo (externa).Também possibilita a inclusão de favicons. 
+
+< style > // Assim como o anterior, também é responsável pelo vinculo de folhas de estilo ao documento. 
+
+< body > // corpo da página
+
+<h2>Estrutura básica de uma página web</h2>
+   
+   * Cabeçalho
+   
+   * Barra de navegação 
+   
+   * Conteúdo
+   
+   * Barra lateral
+   
+   * Rodapé
+
+<h2>Tags HTML básicas</h2>
+
+<h3>Como declarar tags?</h3> 
+
+<p>Existe um conjunto já definido de tags, logo não é possível criar as próprias tags HTML. Outro ponto importante é a forma como uma tag é definida, entre os sinais de maior e menor. Além disso, deve ser fechada. </p>
+
+<strong>Exemplo:<strong> 
+
+<h2>Tipos e composição das tags</h2>
+
+<p>As tags podem ser divididas em tipos, de acordo com as suas funções: </p>
+
+<strong>Estruturais </strong>
+
+* São responsáveis pode definir a estrutura da página. 
+
+<strong>Textuais</strong>
+
+* São responsáveis por organizar o conteúdo da página.
+
+<strong>Semânticas</strong>
+
+* são responsáveis pode organizar a estrutura de conteúdo de uma página. 
+
+<h2>Atributos</h2>
+
+<p>Outra coisa muito importante é que elas podem ter atributos. Os atributos servem para que algumas caracteristicas sejam adicionadas a um elemento, a uma tag. São compostos por um nome e por um valor.</p>
+
+<strong>Exemplo:</strong>
+
+< img src="imagem.png" alt="minha imagem" / >
+
+<h3>Lista de tags mais utilizadas:</h3>
+
+< head > // cabeçalho
+
+< title> // título do documento
+
+< meta> // engloba informações como descrição, palavras-chave, etc. 
+
+< script> // responsável pela inclusão e ou definição de scripts
+
+< link> // responsável pela inclusão de folhas de estilo (externa).Também possibilita a inclusão de favicons. 
+
+< style> // Assim como o anterior, também é responsável pelo vinculo de folhas de estilo ao documento. 
+
+< body> // corpo da página
+
+< article> // inclui bloco de conteudo para artigo. 
+
+< section> // define uma seção no documento, utilizado para agrupar seções, dentro de uma < section> pode conter vários < article>
+
+< h1> < h6> // Usado para definir o tamanho da fonte, h1 titulo e vai reduzindo até h6 onde o texto é miniaturizado. 
+
+< p> // parágrafo
+
+< pre> // Usado para inserir um texto pré formatado. 
+
+< div> // Não considerada semântica, pode ser usada para agrupar algum tipo de conteúdo que não tenha nenhuma semântica específica ou não se encaixe bem dentro de uma tag semântica. 
+
+< span> // semelhante a < div>, porém não quebra o conteúdo apenas o agrupa. 
+
+< a> // usada para inserir links 
+
+< br/> // quebra de linha
+
+< hr> // insere uma linha horizontal no documento. 
+
+< strong> // aplica efeito negrito e o marca como importante
+
+< b> // aplica efeito negrito. 
+
+< i> // itálico
+
+< em> // efeito itálico e dá ênfase a um texto
+
+
+<h2>Tags complexas</h2>
+
+<h3>Listas na HTML</h3>
+
+<h4>Ordenadas</h4> 
+
+* Usadas quando desejamos listar dados com a necessidade de representar a sua ordenação de forma numérica ou alfabética. 
+
+< ol>
+	< li>< /li>
+< /ol>
+
+<h4>Não ordenadas</h4>
+
+* Usadas quando não há necessidade de listar ordenadamente.
+
+< ul>
+	< li>< /li>
+< /ul>
+
+<h4>De definição</h4>
+
+* Usadas quando precisamos listar itens e atribuimos uma descrição a eles.
+
+< dl>
+	< dt>
+		< dd>< /dd>
+	< /dt>
+< dl> 
+
+----> vide exemplo listas.html
+
+
+<h2>Tabelas dentro do HTML</h2>
+
+
+<h3>Estrutura:</h3>
+
+< table> // container principal da tabela
+
+< tr> // representa as linhas, sendo composta pelas tags relacionadas as colunas. 
+
+< td> // representa as colunas e precisa ser inserida dentro da tag de linha. 
+
+< th> // também representa colunas e é usado para exibir titulo de uma coluna, possui função semântica. deve estar contida dentro da tag linha. 
+
+< thead> // cabeçalho da tabela 
+
+< tfoot> // rodapé da tabela 
+
+<strong> exemplo</strong>
+
+UMA TABELA SIMPLES
+UMA TABELA QUE CONTENHA TÍTULO
+UMA TABELA COM CABEÇALHO E RODAPÉ
+UMA TABELA COM LINHAS E COLUNAS EXPANDIDAS
+UM EXEMPLO COMPLETO
