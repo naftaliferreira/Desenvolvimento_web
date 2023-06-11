@@ -192,3 +192,91 @@ UMA TABELA QUE CONTENHA TÍTULO
 UMA TABELA COM CABEÇALHO E RODAPÉ
 UMA TABELA COM LINHAS E COLUNAS EXPANDIDAS
 UM EXEMPLO COMPLETO
+
+<h2>Mídias na HTML</h2>
+
+<p>No HTML5 para incorporar vídeo e áudio em uma página Web, são usadas as tags    < video> e < audio>, veja exemplo: <p>
+
+------> exemplo de uso das tags video e audio. 
+
+
+<h2>Formulários em página Web</h2>
+
+<h3>Composição e validação: </h3>
+
+<p>É um dos elementos mais utilizados para prover interação entre usuários e uma página web ou até mesmo um aplicativo mobile. </p>
+
+<h3>Estrutura básica do formulário</h3>
+
+<p>O formulário é composto por uma tag principal, um container, e várias tags filhas. Tags como campo de texto, de uma ou mais linhas, campos de seleção, botões etc. </p>
+
+<p>Além disso, para maior clareza, é usado tags para informar a função dos campos do formulário. São chamadas de "label".</p> 
+
+<h4>Tags: </h4>
+
+< form> // container principal do formulário
+
+< input> // campo do formulário 
+
+< textarea> // campo de texto de múltiplas linhas
+
+< select> e < option> // campos de seleção, onde o container é definido pela tag < select> e os itens pela tag < option>. 
+
+button // campo de botão. Permite que uma ação seja executada no formulário , enviar o formulário, limpar os dados e etc. 
+
+label // usado para definir um título, uma legenda, que descreva para que serve cada campo do formulário. 
+
+< fieldset> // cria seções dentro do formulário, ajudando a separar os campos no código e a visualizar a página no navegador. 
+
+-------> Exemplo de formulário no html
+
+<h3>Atributos do formulário</h3>
+
+<h4>Atributo "type"</h4>
+
+<p>Além de definir o tipo do campo, também determina como este se comporta. Além de "text" e "input", os outros tipos comuns são:</p> 
+
+password // mascara o texto com asteriscos
+
+Hidden // esconde o campo para não ser exibido no navegador
+
+Checkbox // usado para seleção de valor através de click/check
+
+Radio // Usado para seleção exclusiva de valor, quando é apresentada mais de uma opção, apenas uma poderá ser selecionada. 
+
+Submit // Associada a tag <button>, dispara evento que envia/submete o formulário
+
+Reset // Associa a tag <button>, dispara o evento que limpa os valores do formulário. 
+
+Button // Uma tag <input> pode ser do tipo "button" , exercendo, assim a mesma função da tag <button>
+
+
+<h2>Novos atributos e tipos</h2>
+
+<p>O HTML5 definiu novos tipos de entrada e também novos atributos relacionados a formulários. Entre eles:</p>
+
+placeholder // usado para dar dica ao usuário sobre o dado a ser inserido
+
+required // Utilizado na validação dos dados de um formulário
+
+autofocus // Utilizado quando desejamos, que ao carregar o formulário, um determinado campo seja focado. 
+
+pattern // Validar o valor de um campo com base em uma expressão popular, RegEX. Ex.: o campo de telefone. 
+
+
+<h3>Validação de formulários </h3>
+
+<p>A importância da validade dos dados concorre com a importância da utilização das tags corretas e que permitam a melhor experiência possível aos usuários.</p> 
+
+<h3>Como funciona a validação? </h3>
+
+<p>A validação é um processo que pode, e deve ocorrer, tanto do lado cliente quanto no lado servidor. </p>
+
+<h3>Tipos de validação</h3>
+
+<p>Há dois tipos de validação possível:</p> 
+
+* Que verifica se o dado inserido em um campo é consistente com o seu tipo e/ou padrão (pattern). 
+
+* Que verifica se um campo obrigatório foi preenchido. 
+
