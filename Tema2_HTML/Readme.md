@@ -10,3 +10,22 @@
 
 <h2>Estrutura de uma página web</h2>
 
+<h3>Doctypes</h3>
+
+<p>A sua importancia, na criação de páginas HTML, diz respeito ao conjunto de tags que podem ser usadas e que serão ou não renderizadas a partir do tipo utilizado.</p>
+
+<h3>< !DOCTYPE html ></h3>
+
+<p>Doctype não é uma tag HTML, mas sim uma instrução.Uma declaração que serve para informar ao navegador qual a versão do HTML usada em um arquivo HTML.</p>
+
+<h3>Raiz (Root)</h3>
+~~~~~~
+<hml></html>  
+~~~~~~
+<h3>comentário, cabe destacar o atributo lang, deve ser inserido dentro da tag raiz:</h3>
+~~~~~~
+< html lang="en-US">
+<html lang="en-GB">
+<html lang="pt-BR">
+<html lang="pt">
+~~~~~~
