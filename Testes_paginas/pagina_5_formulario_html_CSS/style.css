@@ -15,6 +15,10 @@
     margin-left: 10%;
 }
 
+#check{
+    display: inline-block;
+}
+
 fieldset{
     border: 0;
 }
@@ -26,11 +30,23 @@ body{
     color: #59429d;
     margin-left: 36%;
     margin-top: 2%;
-    justify-content: 5px;
+    justify-content: center;
 }
 
 input, select, textarea, button{
-    border-radius: 1em;
+    font-family: sans-serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+
+}
+
+.grupo:before, .grupo:after{
+    display: table;
+}
+
+.grupo:after{
+    clear: both;
 }
 
 .campo{
@@ -89,6 +105,3 @@ fieldset.grupo .campo{
     cursor: pointer;
 }
 
-#check{
-    display: inline-block;
-}
