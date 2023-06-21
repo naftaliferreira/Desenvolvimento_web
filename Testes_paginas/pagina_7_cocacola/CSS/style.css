@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "Bahnschrift";
+    src: url(../font/Bahnschrift-Font-Family/BAHNSCHRIFT\ 7.TTF);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Bahnschrift";
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.left{
+    position: absolute;
+    left: 0;
+    background-color: #000;
+    width: 70%;
+    height: 70%;
+}
+
+.left h1{
+    color: #fe001a;
+    left: 10%;
+    top: 20%;
+    position: relative;
+    font-size: 60px;
+}
+
+.left{
+    color: #fff;
+    width: 510px;
+    height: 200px;
+    position: relative;
+    left: 10%;
+    top: 34%;
+}
+
+.left .content-button{
+    width: 400px;
+    height: 100px;
+    left: 8%;
+    top: 2%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.content-button{
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    position: relative;
+    border: 3px solid #fe001a;
+    color: #fe001a;
+    background-color: transparent;
+
+}
+
+
+
