@@ -3,12 +3,16 @@
     src: url(../font/Bahnschrift-Font-Family/BAHNSCHRIFT\ 7.TTF);
 }
 
+@font-face {
+    font-family: "loki_cola";
+    src: url(../font/loki_cola/cocacola.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: "Bahnschrift";
-    text-decoration: none;
 }
 
 .container{
@@ -23,49 +27,136 @@
 .left{
     position: absolute;
     left: 0;
-    background-color: #000;
+    background: #000;
     width: 70%;
-    height: 70%;
+    height: 100%;
 }
 
 .left h1{
-    color: #fe001a;
+    color: #ec1321;
     left: 10%;
-    top: 20%;
+    top: 25%;
     position: relative;
     font-size: 60px;
 }
 
-.left{
+.left p{
     color: #fff;
     width: 510px;
     height: 200px;
     position: relative;
     left: 10%;
-    top: 34%;
+    top: 30%;
 }
 
 .left .content-button{
     width: 400px;
     height: 100px;
-    left: 8%;
-    top: 2%;
+    left: 8;
+    top:22%;
     position: relative;
     justify-content: center;
     align-items: center;
     display: flex;
 }
 
-.content-button{
+.content-button button{
     width: 200px;
     height: 50px;
     margin: 20px;
     position: relative;
-    border: 3px solid #fe001a;
-    color: #fe001a;
-    background-color: transparent;
+    border: 3px solid #ec1321;
+    color: #ec1321;
+    background: transparent;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.content-button button:nth-child(1){
+    background-color: #ec1321;
+    color: #fff;
+}
+
+button:hover{
+    background: #ec1321;
+    color: #fff;
+    transition: 0.2s ease;
+}
+
+.right{
+    width: 30px;
+    height: 100px;
+    right: 0;
+    background: #ec1321;
+    position: relative;
 
 }
 
+.header{
+    width: 100%;
+    height: 100px;
+    top: 0;
+    position: absolute;
+}
 
+.header #logo{
+    color: #ec1321;
+    font-family: loki_cola;
+    position: relative;
+    margin: 30px 13px;
+    font-weight: bold;
+}
 
+.header .menu{
+    width: 500px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: 35%;
+    position: absolute;
+    top: 0;
+}
+
+.menu a{
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    transition: 0.3s ease;
+    color: #fff;
+}
+
+.menu a:nth-child(1){
+    color: #ec1321;
+    font-weight: bold;
+}
+
+.menu a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    background: #ec1321;
+    transition: 0.3s ease;
+}
+
+.menu a:hover{
+    color: #ec1321;
+    transition: 0.2s ease;
+}
+
+.menu a:hover::after{
+    width: 100%;
+    transition: 0.2s ease;
+}
+
+img{
+    height: 600px;
+    right: 22%;
+    top: 17%;
+    position: absolute;
+
+}
