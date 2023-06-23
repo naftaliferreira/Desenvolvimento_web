@@ -112,7 +112,7 @@ ul{
     top: 20px;
     border-radius: 5px;
     background: var(--bg-black-100);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
 }
@@ -141,7 +141,7 @@ ul{
     width: 18px;
     background: var(--skin-color);
     position: absolute;
-    top: 6;
+    top: 6px;
     left: 0;
 }
 
